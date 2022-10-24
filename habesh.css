@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;    }
+body{
+     background-size: cover;
+     background-position: center;
+     font-family: sans-serif;
+     background-color: rgb(167, 222, 230);
+
+}
+.ani{
+text-align: center;}
+.ani ul{
+display: inline-flex;
+list-style: none;
+color: black;
+float: center;
+}
+.ani ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+    color: black;
+}
+.ani ul li a{
+    text-decoration: none;
+    color:white;
+}
+.active, .ani ul li:hover{
+    background-color: rgb(80, 87, 87);
+    border-radius: 3px;
+
+}
+.ani .fa{
+    margin-right: 5px;
+}
+.ananiya{
+    display: none;
+}
+.ani ul li:hover .ananiya{
+    display: block;
+    position: absolute;
+    background-color: rgb(80, 87, 87);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.ani ul li:hover .ananiya ul{
+    display: block;
+    margin: 10px;
+}
+.ani ul li:hover .ananiya ul li{
+    padding: 10px;
+    width: 150px;
+    border-bottom: 1px dotted white;
+    background-color: transparent;
+    border-radius: 0px;
+    text-align: left;
+}
+.ani ul li:hover .ananiya ul li:last-child{
+    border-bottom: none;
+}
+.ani ul li:hover .ananiya ul li a:hover{
+    color: black;
+
+}
+label.logo{
+    font-size: 35px;
+    font-weight: bold;
+    padding: 0 100px;
+    line-height: 80px;
+    float: left;
+    color: gold;
+    margin: 1mm;
+    padding-inline-start: 10mm;
+    font-style:initial;
+    }
+    
+.color{
+    color: rgb(10, 240, 10);
+}
+
+
+
+    .wo
+    {
+        display: flex;
+        justify-content:space-between;
+        padding: 10px;
+        width: 100% ;
+        margin: 5rem auto 0 auto;
+        color:black;
+        background-color:whitesmoke;
+    }
+    .wo video{
+        height: 400px;
+        width: 900px;
+        
+    }
+    .ananiy{
+        display: none;
+    }
+
+
+    .linc{
+        text-decoration: none;
+        text-align: end;
+        color: rgb(38, 16, 236);
+        }
+    .linc:hover{
+        color: rgb(208, 255, 0);
+    
+    }
+
+
+
+
+
+    .imags img{
+        height: 400px;
+        width: 400px;
+        border-radius: 0px;
+        margin: 20px;
+    }
+
+
+
+
+
+    .searchbar1:hover
+    {
+color: brown;
+    }
+    .searchbar a:hover{
+        color: red;
+    }   
+    .searchbar a{
+        font-size: 20px;
+        margin: 70px;
+        text-decoration: none;
+    }
+
+    .searchbar1 button {
+        font-size: 20px;
+        margin-left: 20px;
+        
+
+        
+    }
+
+
+.searchbar1 button:hover{
+    color: brown;
+   
+}
+
+
+
+    
+
+
+
+
+
+
+.music{
+    box-decoration-break: slice;
+    
+}
+
